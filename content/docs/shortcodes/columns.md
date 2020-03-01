@@ -1,5 +1,4 @@
 # Columns
-
 Columns help organize shorter pieces of content horizontally for readability.
 
 
@@ -9,7 +8,6 @@ Columns help organize shorter pieces of content horizontally for readability.
 Lorem markdownum insigne...
 
 <---> <!-- magic sparator, between columns -->
-
 # Mid Content
 Lorem markdownum insigne...
 

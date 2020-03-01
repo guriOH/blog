@@ -1,3 +1,18 @@
-baseURL = "http://example.org/"
+baseURL = "https://gurioh.github.io/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "henry site"
+theme = "book"
+publishDir = "guriOh.github.io"
+
+name = "Book"
+license = "MIT"
+licenselink = "https://github.com/alex-shpak/hugo-book/blob/master/LICENSE"
+description = "Hugo documentation theme as simple as plain book"
+homepage = "https://github.com/alex-shpak/hugo-book"
+tags = ["responsive", "clean", "documentation", "docs", "flexbox", "search", "mobile", "multilingual", "disqus"]
+features = []
+min_version = "0.60"
+
+[author]
+  name = "Alex Shpak"
+  homepage = "https://github.com/alex-shpak/"
