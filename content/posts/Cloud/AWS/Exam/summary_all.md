@@ -102,6 +102,10 @@ categories:
  - CloudFront는 개발자 친화적 환경에서 짧은 지연 시간과 빠른 전송 속도로 데이터, 동영상, 애플리케이션 및 API를 전 세계 고객에게 안전하게 전송하는 고속 콘텐츠 전송 네트워크(CDN) 서비스
  - CloudFront는 AWS Shield와 연동되어 DDoS 완화를 수행하고, 애플리케이션 오리진으로서 Amazon S3, Elastic Load Balancing 또는 Amazon EC2를 사용하고, Lambda@Edge와 연동되어 사용자지정 코드를 고객의 사용자에서 가까운 위치에서 실행하고 맞춤화된 사용자 경험을 제공
  - Amazon S3, Amazon EC2 또는 Elastic Load Balancing과 같은 AWS 오리진을 사용하는 경우, 이러한 서비스와 CloudFront 간에 전송된 데이터에 대해서는 비용을 지불하지 않습니다.
+ - CloudFront는 signed URL, signed cookies 둘다 동일한 기능을 하도록 제공, 단 적용해야할 상황이 있음
+   - signed URL : RTMP를 사용할때, 쿠키는 지원 안함
+      , 개인적인 파일에 접근을 제한할때, 사용자가 쿠키를 지원안할때
+   - signed cookie : 다수의 파일에 제한을 하고 싶을때 특정 웹사이트에서 사용하고 있는 파일들, URL을 변경하고 싶지 않을떄
  - Q1 : A Solutions Architect has been asked to deliver video content stored on Amazon S3 to specific users from Amazon CloudFront while restricting access by unauthorized users.
 How can the Architect implement a solution to meet these requirements?
 Answer :CloudFront 배포를 통해서만 Amazon S3 버킷에 대한 액세스를 허용하려면 먼저 배포에 OAI(오리진 액세스 ID)를 추가합니다. 그런 다음, 버킷 정책 및 Amazon S3 ACL(액세스 제어 목록)을 검토
