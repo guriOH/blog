@@ -13,6 +13,8 @@ tags = ["responsive", "clean", "documentation", "docs", "flexbox", "search", "mo
 features = []
 min_version = "0.60"
 
+disableLiveReload = true
+
 [author]
   name = "Alex Shpak"
   homepage = "https://github.com/alex-shpak/"

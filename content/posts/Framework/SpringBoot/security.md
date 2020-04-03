@@ -92,7 +92,8 @@ ConfigAttribute : 누가 액세스가능한지에 대한 정보를 가지고있�
 3개의 부분으로 나뉨 (.) 으로 나뉨
 
 1. HEADER
-2. PAYLOAD
+2. PAYLOADimport java.time.LocalDateTime;
 3. SIGNATURE
 
 Ex> eeeeee.pppppp.sssssss
+
